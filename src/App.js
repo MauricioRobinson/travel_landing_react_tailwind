@@ -30,7 +30,7 @@ function App() {
 					<div className="mt-4">
 						<a
 							href="#"
-							className="bg-indigo-400 px-5 py-3 rounded-lg shadow-lg mt-4 inline-block text-white uppercase tracking-wider font-semibold text-sm sm:mt-6 sm:text-base"
+							className="bg-indigo-500 hover:bg-indigo-400 hover:-translate-y-0.5 transform transition px-5 py-3 rounded-lg shadow-lg mt-4 inline-block text-white uppercase tracking-wider font-semibold text-sm sm:mt-6 sm:text-base focus:outline-none focus:ring focus:ring-offset-2 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-600"
 						>
 							Book your imagination
 						</a>
