@@ -6,7 +6,7 @@ function App() {
 	return (
 		<div className="bg-gray-200 grid lg:grid-cols-2 2xl:grid-cols-5">
 			<div className="px-8 py-6 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2">
-				<div className='xl:max-w-xl'>
+				<div className="xl:max-w-xl">
 					<img src={logo} alt="website logo" className="h-14" />
 					<img
 						src={header}
@@ -27,12 +27,12 @@ function App() {
 						yucytdtyu ytdesyrek jytxkb ydtestcolpoihoi
 						ouyfiytxiytclib
 					</p>
-					<div className="mt-4">
-						<a
-							href="#"
-							className="bg-indigo-500 hover:bg-indigo-400 hover:-translate-y-0.5 transform transition px-5 py-3 rounded-lg shadow-lg mt-4 inline-block text-white uppercase tracking-wider font-semibold text-sm sm:mt-6 sm:text-base focus:outline-none focus:ring focus:ring-offset-2 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-600"
-						>
+					<div className="mt-4 space-x-2">
+						<a href="#" className="btn btn-primary shadow-lg hover:-translate-y-0.5 transform transition">
 							Book your imagination
+						</a>
+						<a href="#" className="btn btn-secondary">
+							Learn more
 						</a>
 					</div>
 				</div>
