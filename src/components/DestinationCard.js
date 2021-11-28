@@ -9,7 +9,7 @@ function DestinationCard({ destination }) {
                     <h3 className='card-title text-lg font-semibold text-gray-800 uppercase'>{destination.city}</h3>
                     <p className='card-text text-gray-600'>${destination.averagePrice} / night average</p>
                     <div className='mt-4'>
-                        <a href='#' className='text-indigo-500 hover:text-indigo-400 font-semibold text-sm'>Explore {destination.propertyCount} properties</a>
+                        <a href='#' className='text-brand-dark hover:text-brand font-semibold text-sm'>Explore {destination.propertyCount} properties</a>
                     </div>
                 </div>
             </div>
